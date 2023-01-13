@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>facebook</title>
+    <g id="Layouts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pillar_page" transform="translate(-1308.000000, -593.000000)">
+            <g id="facebook" transform="translate(1308.000000, 593.000000)">
+                <circle id="Oval" cx="12" cy="12" r="12"></circle>
+                <path d="M12.9604332,19.0588235 L9.9665934,19.0588235 L9.9665934,11.999109 L8.47058824,11.999109 L8.47058824,9.56656816 L9.9665934,9.56656816 L9.9665934,8.10615264 C9.9665934,6.12180525 10.810869,4.94117647 13.2110632,4.94117647 L15.2087858,4.94117647 L15.2087858,7.37460831 L13.9602092,7.37460831 C13.0258348,7.37460831 12.964092,7.7145403 12.964092,8.3489612 L12.9599758,9.56656816 L15.2225064,9.56656816 L14.9576984,11.999109 L12.9599758,11.999109 L12.9599758,19.0588235 L12.9604332,19.0588235 Z" id="Shape" fill="#880212"></path>
+            </g>
+        </g>
+    </g>
+</svg>

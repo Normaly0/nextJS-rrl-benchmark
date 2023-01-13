@@ -1,0 +1,16 @@
+// stylelint-disable max-line-length
+// Font family settings
+// You can define your own font families here, like --font-barlow
+// and then attach them to elements: --font-paragraph: var(--font-barlow)
+:root {
+  --font-serif: sans-serif;
+  
+  --font-heading: 'Libre Baskerville Strong';
+
+  --font-nunito: 'Nunito Sans';
+  --font-nunito-bold: 'Nunito Sans Strong';
+
+  // Fonts in use for content
+  // --font-paragraph: var(--font-sans);
+  // --font-heading: var(--font-sans);
+}

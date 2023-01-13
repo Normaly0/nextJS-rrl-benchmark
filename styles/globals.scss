@@ -1,0 +1,152 @@
+/****************************************************
+************** GENERAL SECTION IMPORTS **************
+*****************************************************/
+
+// Helpers
+@import 'helpers/reset';
+@import 'helpers/typography-mixin';
+@import 'helpers/breakpoint-mixin';
+
+// Variables
+@import 'variables/colors';
+@import 'variables/breakpoints';
+@import 'variables/font-face';
+@import 'variables/font-family';
+@import 'variables/font-size';
+@import 'variables/forms';
+
+// Layout
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main";
+
+// PRINT
+@import "layout/print";
+
+@import "rrl_pillar.scss";
+
+
+
+
+/****************************************************
+************** GENERAL SECTION STYLING **************
+*****************************************************/
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*,
+*::before,
+*::after {
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+  margin: 0;
+
+  background-color: var(--color-background);
+
+  color: var(--color-grey);
+  font-family: var(--font-nunito);
+  font-size: 16px;
+  line-height: 22px;
+
+  @include breakpoint(1366px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  & h1 {
+    font-family: var(--font-heading);
+    font-size: 28px;
+    line-height: 35px;
+
+    @include breakpoint(1366px) {
+      font-size: 34px;
+      line-height: 48px;
+    }
+  }
+
+  & h2 {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    line-height: 26px;
+
+    @include breakpoint(1366px) {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+
+  & h3 {
+    font-family: var(--font-heading);
+    font-size: 18px;
+    line-height: 24px;
+
+    @include breakpoint(1366px) {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  & h4 {
+    font-family: var(--font-heading);
+    font-size: 17px;
+    line-height: 23px;
+
+    @include breakpoint(1366px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+
+
+}
+
+.rrl_maincontent {
+
+  width: 100%;
+  display: block;
+
+}
+
+a {
+  color: var(--color-red);
+  overflow-wrap: break-word;
+}
+
+ol {
+  padding-left: 15px;
+  list-style-type: decimal;
+
+  & li {
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+    &::marker {
+      margin-right: 20px;
+      color: var(--color-orange);
+      font-size: 16px;
+    }
+  }
+}
+
+strong {
+  font-family: var(--font-nunito-bold);
+}

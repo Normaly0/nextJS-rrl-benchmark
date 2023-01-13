@@ -1,0 +1,25 @@
+//Mixins media queries
+
+@mixin breakpoint($mq-width) {
+    @media screen and (min-width: $mq-width) {
+        @content;
+    }
+}
+
+@mixin breakpoint_max($mq-width) {
+    @media screen and (min-width: $mq-width) {
+        @content;
+    }
+}
+
+@mixin breakpoint_orientation($mq-width, $mq-orientation) {
+    @media screen and (min-width: $mq-width) and (orientation: $mq-orientation) {
+        @content;
+    }
+}
+
+
+
+//@include breakpoint($width-large-desktop) {
+//    width: 75%;
+//}

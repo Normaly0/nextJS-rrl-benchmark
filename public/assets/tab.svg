@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/tab</title>
+    <g id="Icon/tab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <polyline id="Rectangle" stroke="#F18700" transform="translate(9.000000, 9.000000) rotate(-180.000000) translate(-9.000000, -9.000000) " points="2 9 2 2 9 2 16 2 16 9 16 16 9 16"></polyline>
+        <polyline id="Rectangle-Copy" stroke="#F18700" transform="translate(14.500000, 3.500000) rotate(-360.000000) translate(-14.500000, -3.500000) " points="13 2 16 2 16 5"></polyline>
+        <line x1="15.5" y1="2.5" x2="8.5" y2="9.5" id="Line" stroke="#F18700"></line>
+    </g>
+</svg>
