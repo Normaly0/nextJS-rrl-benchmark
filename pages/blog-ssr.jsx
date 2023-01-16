@@ -118,9 +118,7 @@ export default function Home(props) {
 
                     </section>
 
-                    <section className="rrl_maincontent_section">
-
-                        <div className="two-column_header">
+                    <section className="rrl_maincontent_section"> <div className="two-column_header">
 
                             <h2>
                                 {props.data.acf.content_area[3].section_header}
